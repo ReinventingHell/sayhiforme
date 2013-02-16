@@ -48,3 +48,7 @@ gem "libv8", ">= 3.11.8"
 gem "therubyracer", ">= 0.11.3", :group => :assets, :platform => :ruby, :require => "v8"
 gem "omniauth", ">= 1.1.3"
 gem "omniauth-facebook"
+gem "figaro", ">= 0.5.3"
+gem "better_errors", ">= 0.6.0", :group => :development
+gem "binding_of_caller", ">= 0.6.9", :group => :development
+gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
